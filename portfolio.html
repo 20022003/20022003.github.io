@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahfoudh Senhoury Portfolio</title>
+
+  <!-- FontAwesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#home" class="logo">MahfoudhSenhoury</a>
+    <ul class="nav-links"> 
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Full-Stack Developer</h1>
+      <p>Building digital experiences that merge creativity with technology</p>
+      <p class="highlight">Specializing in modern web development and cyber systems</p>
+      <a href="#contact" class="cta-button">Let's Connect</a>
+    </div>
+    <div class="hero-image"> 
+      <img src="me.jpg" alt="Profile" class="profile-img" />
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Technical Expertise</h2>
+    <div class="skills-grid">
+      <div class="skills-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend Development</h3>
+        <p>React, HTML5, CSS3, JavaScript</p>
+      </div>
+      <div class="skills-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Backend Development</h3>
+        <p>Python, Java, C++</p>
+      </div>
+      <div class="skills-card">
+        <i class="fa-solid fa-paintbrush"></i>
+        <h3>UI/UX Design</h3>
+        <p>Adobe XD, Figma, Prototyping, User Testing</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" method="POST" action="#">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="cta-button">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mahfoudh Senhoury. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/20022003" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mahfoudh-senhoury-4136b1347" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/m.senhoury" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </footer>
+  
+
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
